@@ -7,8 +7,8 @@ driver = webdriver.Chrome()
 driver.get('https://www.amazon.in/')
 time.sleep(5)
 
-searchbtn = driver.find_element(By.XPATH,'//*[@id="twotabsearchtextbox"]')
-searchbtn.send_keys("iphone 12")
+searchbox = driver.find_element(By.XPATH,'//*[@id="twotabsearchtextbox"]')
+searchbox.send_keys("iphone 12")
 
 search = driver.find_element(By.XPATH,'//*[@id="nav-search-submit-button"]')
 search.send_keys(Keys.RETURN)
