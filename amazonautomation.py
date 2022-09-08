@@ -12,4 +12,3 @@ searchbox.send_keys("iphone 12")
 
 search = driver.find_element(By.XPATH,'//*[@id="nav-search-submit-button"]')
 search.send_keys(Keys.RETURN)
-
